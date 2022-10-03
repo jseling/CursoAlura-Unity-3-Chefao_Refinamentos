@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 28
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 11}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 29
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,22 +415,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animacoes
+    - Assets/Prefabs/Personagens
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animacoes
+  - Assets/Prefabs/Personagens
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\MeusEstudos\Unity\CursoAlura-Unity-3-Criando_Chefao_Refinamentos\apocalipse-zumbi-alura
+  m_LastProjectPath: D:\MeusEstudos\Unity\CursoAlura-Unity-3-Chefao_Refinamentos\apocalipse-zumbi-alura
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a620000
-    m_LastClickedID: 25162
-    m_ExpandedIDs: 000000003c6200003e620000
+    m_SelectedIDs: 6a620000
+    m_LastClickedID: 25194
+    m_ExpandedIDs: 0000000040620000426200005c62000020630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -458,7 +458,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c6200003e620000
+    m_ExpandedIDs: 000000004062000042620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,18 +486,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a86c0000a8680000d068000014620000
+    m_ExpandedInstanceIDs: c6230000a86c0000a8680000d068000014620000c2630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GeradorZumbis
-      m_OriginalName: GeradorZumbis
+      m_Name: MovimentoPersonagem
+      m_OriginalName: MovimentoPersonagem
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 4360
+      m_UserData: 7006
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -831,9 +831,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 39.694984, y: -35.207554, z: 81.50692}
+    m_Target: {x: -50.33509, y: -121.1969, z: 180.33128}
     speed: 2
-    m_Value: {x: 39.694984, y: -35.207554, z: 81.50692}
+    m_Value: {x: -50.33509, y: -121.1969, z: 180.33128}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -880,13 +880,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22661054, y: -0.25869942, z: 0.0625703, w: -0.93692255}
+    m_Target: {x: -0.2784127, y: 0.102614835, z: -0.029938873, w: -0.95450675}
     speed: 2
-    m_Value: {x: -0.22660865, y: -0.25869727, z: 0.06256978, w: -0.93691474}
+    m_Value: {x: -0.27432486, y: 0.09557649, z: -0.027419804, w: -0.95648277}
   m_Size:
-    m_Target: 91.40023
+    m_Target: 135.00595
     speed: 2
-    m_Value: 91.40023
+    m_Value: 129.19229
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -941,10 +941,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1321}
-      m_SelectedIDs: 90590000
-      m_LastClickedID: 22928
-      m_ExpandedIDs: 38fbffff565a0000765b0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: aa5e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

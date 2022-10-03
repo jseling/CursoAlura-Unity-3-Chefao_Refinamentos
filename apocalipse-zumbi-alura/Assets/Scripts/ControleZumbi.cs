@@ -118,7 +118,10 @@ public class ControleZumbi : MonoBehaviour, IMatavel
 
     public void Morrer()
     {
-        Destroy(gameObject);
+        Destroy(gameObject, 2);
+        animacaoInimigo.Morrer();
+        movimentaInimigo.Morrer();
+        this.enabled = false;
         ControleAudio.instancia.PlayOneShot(SomDeMorte);
         VerificarGeracaoKitMedico(porcentagemGerarKitMedico);
         scriptControleInterface.AtualizarQuantidadeDeZumbisMortos();
