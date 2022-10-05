@@ -31,7 +31,8 @@ public class MovimentoPersonagem : MonoBehaviour
     public void Morrer()
     {
         meurigidbody.constraints = RigidbodyConstraints.None;
-        //meurigidbody.velocity = Vector3.zero;
+        meurigidbody.velocity = Vector3.zero;
+        meurigidbody.isKinematic = false;
         GetComponent<CapsuleCollider>().enabled = false;
     }
 }

@@ -101,7 +101,7 @@ public class ControleZumbi : MonoBehaviour, IMatavel
 
     void AleatorizarZumbi()
     {
-        int tipoZumbi = Random.Range(1, 27);
+        int tipoZumbi = Random.Range(1, transform.childCount);
         transform.GetChild(tipoZumbi).gameObject.SetActive(true);
         compControleJogador = Jogador.GetComponent<ControleJogador>();
     }

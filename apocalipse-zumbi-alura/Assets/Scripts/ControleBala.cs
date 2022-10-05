@@ -32,10 +32,15 @@ public class ControleBala : MonoBehaviour
 
     void OnTriggerEnter(Collider objetoDeColisao)
     {
-        if(objetoDeColisao.tag == "Inimigo")
+        switch(objetoDeColisao.tag)
         {
-            objetoDeColisao.GetComponent<ControleZumbi>().TomarDano(1);
+            case "Inimigo":
+                objetoDeColisao.GetComponent<ControleZumbi>().TomarDano(1);
+                break;
+            case "Chefe":
+                objetoDeColisao.GetComponent<ControleChefe>().TomarDano(1);
+                break;
         }
-         Destroy(gameObject);
+        Destroy(gameObject);
     }    
 }
